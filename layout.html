@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic layout</title>
+<style>
+  .container{
+    width: 1080px;
+    margin: auto;
+  }
+  .header{
+    width: inherit;
+    background-color: #9219ff;
+    height: 300px;
+  }
+
+      ul{
+          list-style-type: none;
+          margin: 0;
+          overflow: hidden;
+          background-color: #333;
+
+      }
+      li{
+          float: left;
+      }
+
+      li a{
+          text-decoration: none;
+          color: ghostwhite;
+          display: block;
+          padding: 14px 16px;
+
+      }
+      li a:hover{
+          background-color: #111
+      }
+      .active{
+          color: #CC3BFC;
+      }
+
+  .content{
+    width: 540px;
+    height: 400px;
+    background-color: #ff3d19;
+    float: left;
+  }
+  .footer{
+    width: inherit;
+    background-color: #0000ff;
+  }
+
+</style>
+
+</head>
+<body>
+<div class="container">
+  <div class="header">Header</div>
+  <div class="navbar">
+      <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">Abou<!--/-->t</a></li>
+      </ul>
+  </div>
+  <div class="content">Content1</div>
+  <div class="content">Content2</div>
+  <div class="footer">Footer</div>
+</div>
+</body>
+</html>
